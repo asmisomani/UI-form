@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/UI-form/static/css/main.8e3c51fd.chunk.css",
+    "main.js": "/UI-form/static/js/main.09bffd96.chunk.js",
+    "main.js.map": "/UI-form/static/js/main.09bffd96.chunk.js.map",
+    "runtime-main.js": "/UI-form/static/js/runtime-main.ab0631e2.js",
+    "runtime-main.js.map": "/UI-form/static/js/runtime-main.ab0631e2.js.map",
+    "static/js/2.195edcf9.chunk.js": "/UI-form/static/js/2.195edcf9.chunk.js",
+    "static/js/2.195edcf9.chunk.js.map": "/UI-form/static/js/2.195edcf9.chunk.js.map",
+    "index.html": "/UI-form/index.html",
+    "static/css/main.8e3c51fd.chunk.css.map": "/UI-form/static/css/main.8e3c51fd.chunk.css.map",
+    "static/js/2.195edcf9.chunk.js.LICENSE.txt": "/UI-form/static/js/2.195edcf9.chunk.js.LICENSE.txt",
+    "static/media/dribbble.10d1f8eb.png": "/UI-form/static/media/dribbble.10d1f8eb.png",
+    "static/media/instagram.c8a83ed8.png": "/UI-form/static/media/instagram.c8a83ed8.png",
+    "static/media/mailchimp.d5c4cd6e.png": "/UI-form/static/media/mailchimp.d5c4cd6e.png",
+    "static/media/pinterest.e8ec3869.png": "/UI-form/static/media/pinterest.e8ec3869.png",
+    "static/media/product.3b5bb8ed.png": "/UI-form/static/media/product.3b5bb8ed.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ab0631e2.js",
+    "static/js/2.195edcf9.chunk.js",
+    "static/css/main.8e3c51fd.chunk.css",
+    "static/js/main.09bffd96.chunk.js"
+  ]
+}
