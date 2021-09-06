@@ -6,7 +6,6 @@ import instagram from "../img/instagram.png";
 import pinterest from "../img/pinterest.png";
 import dribbble from "../img/dribbble.png";
 import { array1, array2 } from "./Settings";
-
 import { MdSettings } from "react-icons/md";
 import { useState } from "react";
 import { Offcanvas } from "react-bootstrap";
@@ -21,14 +20,15 @@ export default function Block1() {
   const color1=array1.map((array)=>{return array.styles.backgroundColor})
   const color2=array2.forEach((array)=>{return array.styles.backgroundColor})
   const [show, setShow] = useState(false);
-  // const [color, setColor] = useState("#8039da");
+  const array=[...array1,...array2]
+  
   const [color, setColor] = useState("#0061f2");
-
-  // function changeColorHandler() {
-    
-  //   setColor("");
-  //   console.log()
-  // }
+  
+  // const random = Math.floor(Math.random() * array.length)
+  // const randomColor=array.forEach((array)=>{return array[random].styles.backgroundColor})
+  // console.log(array[random])
+ 
+  
   function toggleShow() {
     setShow(true);
   }
@@ -351,7 +351,7 @@ export default function Block1() {
         </div>
         <div className="btns">
           <button className="btn btn-primary" style={{ backgroundColor: color, color: "white" ,WebkitMaskImage:"linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))",borderColor:color}}>Start now</button>
-          <button className="btn btn-trans" style={{ backgroundColor: color, color: "white" ,WebkitMaskImage:"linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))",borderColor:color}}>Contact us</button>
+          <button className="btn btn-trans" style={{ backgroundColor: color, color: "white" ,WebkitMaskImage:"linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))"}}>Contact us</button>
         </div>
       </div>
       <hr />
@@ -403,6 +403,7 @@ export default function Block1() {
                 backgroundColor: "white",
                 border: "1px solid black",
               }}
+              colorHandler={()=>{setColor()}}
             ></Swatch>
           </Offcanvas.Body>
         </Offcanvas>
